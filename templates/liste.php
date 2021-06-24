@@ -10,10 +10,15 @@ require_once('data/liste_transactions.php');
 </head>
 <body>
 <h1>Liste des transactions</h1>
+
 <ul>
     <li>
-    test
+        <?php echo 'Date' . $transactions;
+        ?>
     </li>
 </ul>
+<a href="../formulaire.php">
+    Nouvelle transaction
+</a>
 </body>
 </html>
